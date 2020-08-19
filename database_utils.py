@@ -26,7 +26,7 @@ def initialize_database():
 		try:
 			conn = sqlite3.connect('jrnl_database.db')
 			cursor = conn.cursor()
-			print('jrnl_database.db initalized - happy journaling!')
+			print('\njrnl_database.db initalized - happy journaling!')
 			return conn
 		except:
 			print(Error)
